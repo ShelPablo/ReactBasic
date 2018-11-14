@@ -69,6 +69,7 @@ build/Release
 node_modules/
 jspm_packages/
 *built/
+*target/
 
 # TypeScript v1 declaration files
 typings/
@@ -106,3 +107,8 @@ typings/
 # Serverless directories
 .serverless
 
+Будет удалено src/main/java/com/shelpablo/entities/
+Будет удалено src/main/java/com/shelpablo/models/
+Будет удалено src/main/js/api/
+Будет удалено target/classes/com/greglturnquist/
+Будет удалено target/generated-sources/
