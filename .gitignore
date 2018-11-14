@@ -66,10 +66,10 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+i k
 jspm_packages/
 *built/
-target/
+
 
 # TypeScript v1 declaration files
 typings/
@@ -110,5 +110,5 @@ typings/
 Будет удалено src/main/java/com/shelpablo/entities/
 Будет удалено src/main/java/com/shelpablo/models/
 Будет удалено src/main/js/api/
-Будет удалено target/classes/com/greglturnquist/
+Будет удаcommitлено target/classes/com/greglturnquist/
 Будет удалено target/generated-sources/
