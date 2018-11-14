@@ -1,23 +1,11 @@
-'use strict';
-
-const React = require('react');
-const ReactDOM = require('react-dom');
-const when = require('when');
-
-const root = '/api';
-
-class App extends React.Component {
-
+import React, {Component} from 'react';
+import {render} from 'react-dom';
+class App extends Component {
     render() {
+        var place = "World!!";
         return (
-            <div>
-                Hello World!
-            </div>
-        )
+            <h1>Hello {place}</h1>
+        );
     }
 }
-
-ReactDOM.render(
-    <App />,
-    document.getElementById('react')
-)
+render(<App />, document.getElementById('root'));
