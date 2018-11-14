@@ -7,5 +7,6 @@ class App extends Component {
             <h1>Hello {place}</h1>
         );
     }
+
 }
 render(<App />, document.getElementById('root'));
