@@ -10,9 +10,9 @@ class CheckList extends Component {
         ));
         return (
             <div className="checklist">
-                <ul>{tasks}</ul>
+                <
+                    export default CheckList;ul>{tasks}</ul>
             </div>
         );
     }
 }
-export default CheckList;
